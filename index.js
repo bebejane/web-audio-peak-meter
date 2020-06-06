@@ -1,4 +1,4 @@
-var webAudioPeakMeter = (function() {
+ function webAudioPeakMeter () {
   'use strict';
   var options = {
     borderSize: 2,
@@ -265,6 +265,6 @@ var webAudioPeakMeter = (function() {
     createMeterNode: createMeterNode,
     createMeter: createMeter,
   };
-})();
+};
 
 module.exports = webAudioPeakMeter;
